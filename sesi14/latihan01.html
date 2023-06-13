@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery 01</title>
+</head>
+<body>
+
+   <h3>Judul</h3>
+   <div id="tampil1">Tidak bisa Berword-word</div>
+   <div class="tampil1">Hidup Kadang Kiding</div>
+
+   <p>Gak Sabar Konseran Walaupun Gak dapat Nonton</p>
+   <div id="tampil2">Tinggal 3 Hari Lagi</div>
+   <div class="tampil2">Mengcapek Bersama</div>
+
+
+
+
+   
+    <script src="jquery.js"></script>
+    <script>
+       $(document).ready(function(){
+            $("#tampil1").html("Tidak bisa Berword-word");
+            $(".tampil1").html("Hidup Kadang Kiding");
+            $("h3").html("Belajar Ngelawak Bareng-Bareng");
+            $("#tampil2").html("Tinggal 3 Hari Lagi");
+            $("p").html("Gak Sabar Konseran Walaupun Gak dapat Nonton");
+            $(".tampil2").html("Mengcapek Bersama")
+
+
+       });
+    </script>
+</body>
+</html>
